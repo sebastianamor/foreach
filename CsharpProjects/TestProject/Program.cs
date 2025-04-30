@@ -7,12 +7,11 @@ G3003,
 C235,
 B179 ,   };
 
-foreach (int items in inventory)
+foreach (int name in inventory)
 {
-   
-string name = "Bob";
-if (name.StartsWith("B"))
+if (name.StartsWith(B))
 {
-    Console.WriteLine("The name starts with 'B'!");
+    Console.WriteLine($"We B{B} items in inventory.");
 }
 }
+Console.WriteLine($"We B{B} items in inventory.");
