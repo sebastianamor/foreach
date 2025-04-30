@@ -1,17 +1,9 @@
-﻿int[] inventory = {  B123,
-C234,
-A345,
-C15,
-B177,
-G3003,
-C235,
-B179 ,   };
+﻿string[] inventorYs = { "B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179" };
 
-foreach (int name in inventory)
+foreach (string inventory  in inventorYs)
 {
-if (name.StartsWith(B))
-{
-    Console.WriteLine($"We B{B} items in inventory.");
+    if (inventory.StartsWith("B"))
+    {
+        Console.WriteLine(inventory);
+    }
 }
-}
-Console.WriteLine($"We B{B} items in inventory.");
