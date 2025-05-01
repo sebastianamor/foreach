@@ -2,7 +2,7 @@
 
 foreach (string inventory  in inventorYs)
 {
-    if (inventory.StartsWith("B"))
+    if (inventory.StartsWith("C")) // al cambiar la letra cambia la separacion 
     {
         Console.WriteLine(inventory);
     }
